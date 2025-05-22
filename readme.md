@@ -1,11 +1,7 @@
-# Food Explorer 🍽️
-
-<p align="center">
-  <img src="SEU_LOGO_AQUI" width="500" height="85" alt="Food Explorer Logo" />
+<p align="center"><img src="https://raw.githubusercontent.com/gist/B3RG5TRON/cd3fe42f3def995f9f073ec0cad621e3/raw/ac6ceae7c24c859342521162b46b6c3b552d4639/foodExplorerLogo.svg" alt="Food Explorer Logo" />
 </p>
 
-[![Netlify Status](SEU_BADGE_NETLIFY_AQUI)](COLAR_LINK)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+<!-- [![Deploy Status](SEU_BADGE_DEPLOY_AQUI)](COLAR_LINK) -->
 
 ## 📑 Índice
 
@@ -36,45 +32,35 @@ O Food Explorer é uma aplicação web desenvolvida para proporcionar uma experi
 ### Página do cliente 👇
 
 **Consulta automática de CEP:**  
-Ao atualizar o perfil, basta digitar o CEP para que o sistema busque automaticamente os dados do endereço via API externa ([https://viacep.com.br/](https://viacep.com.br/)), agilizando o preenchimento e evitando erros.
+Ao atualizar o perfil, basta digitar o CEP para que o sistema busque automaticamente os dados do endereço via API externa ([viacep](https://viacep.com.br/)), agilizando o preenchimento e evitando erros.
 
-<p align="center">
-  <a href="COLAR_LINK"><img width="700" src="COLE_AQUI_O_LINK_DA_IMAGEM" /></a>
-</p>
+![Consulta automática de CEP](./src/assets/readmeImages/ConsultaAutomaticaCEP.gif)
 
 **Carrinho de compras dinâmico:**  
 O cliente pode ajustar quantidades, remover itens, atualizar o endereço de entrega e escolher entre diferentes opções de frete, tudo em tempo real, com resumo detalhado do pedido.
 
-<p align="center">
-  <a href="COLAR_LINK"><img width="700" src="COLE_AQUI_O_LINK_DA_IMAGEM" /></a>
-</p>
+![Carrinho de compras dinâmico](./src/assets/readmeImages/CarrinhoComprasDinamico.gif)
 
 **Checkout simplificado:**  
 O processo de compra é dividido em quatro etapas objetivas, permitindo revisão de dados, confirmação de endereço, escolha do frete e seleção da forma de pagamento (cartão ou Pix), além de espaço para observações especiais no pedido.
 
-<p align="center">
-  <a href="COLAR_LINK"><img width="700" src="COLE_AQUI_O_LINK_DA_IMAGEM" /></a>
-</p>
+![Checkout simplificado](./src/assets/readmeImages/CheckoutSimplificado.png)
 
 ### Página do administrador 👇
 
 **Gestão de produtos favoritos:**  
 O administrador visualiza rapidamente os pratos mais favoritados, facilitando a criação de promoções e ações de marketing direcionadas. É possível editar informações dos produtos diretamente a partir dessa visualização.
 
-<p align="center">
-  <a href="COLAR_LINK"><img width="700" src="COLE_AQUI_O_LINK_DA_IMAGEM" /></a>
-</p>
+![Gestão de produtos favoritos](./src/assets/readmeImages/GestaoFavoritos.png)
 
 **Processamento eficiente de pedido:**  
 Todos os pedidos são exibidos de forma organizada, permitindo ao administrador acompanhar o status, acessar detalhes completos e atualizar o andamento de cada compra, otimizando o fluxo operacional do restaurante.
 
-<p align="center">
-  <a href="COLAR_LINK"><img width="700" src="COLE_AQUI_O_LINK_DA_IMAGEM" /></a>
-</p>
+![Processamento eficiente de pedido](./src/assets/readmeImages/ProcessamentoEficientePedido.png)
 
 ## 🌐 Deploy
 
-Acesse: [COLAR_LINK](COLAR_LINK)
+ Acesse: Em breve... <!-- [COLAR_LINK](COLAR_LINK) -->
 
 ## 🛠️ Tecnologias
 
@@ -91,14 +77,14 @@ As seguintes tecnologias foram empregadas na criação deste projeto:
 ## 🎨 Layout
 
 O layout do Food Explorer foi cuidadosamente projetado para garantir uma navegação fluida e agradável em qualquer dispositivo. A interface segue as melhores práticas de design, com foco em acessibilidade, clareza e modernidade.  
-Você pode visualizar o protótipo completo e interativo do projeto no [Figma](https://www.figma.com/community/file/1196874589259687769) (é necessário ter uma conta gratuita para acessar).
+Você pode visualizar o protótipo completo e interativo do projeto no [Figma](https://www.figma.com/design/5oyljoC8mmw46wZdHyNEjC/food-explorer-v2--Community-?m=auto&t=lFHlB9XKvfwqioaY-6) (é necessário ter uma conta gratuita para acessar).
 
 ## 📝 Como Utilizar
 
 Clone o projeto para o local desejado em seu computador:
 
 ```bash
-git clone git@github.com:COLAR_LINK
+git clone https://github.com/B3RG5TRON/Food_Explorer_NodeJS_API.git
 ```
 
 Entre na pasta raiz do repositório:
@@ -119,7 +105,7 @@ Acesse a pasta `src/services/index.js` e insira a sua baseURL:
 import axios from "axios"
 
 export const api = axios.create({
-  baseURL: "INSIRA_AQUI_SUA_BASE_URL",
+  baseURL: "INSIRA_AQUI_SUA_BASE_URL", //padrão utilizado: http://localhost:3333
 })
 ```
 
@@ -135,18 +121,20 @@ Exemplo:
 ```bash
   VITE v4.5.0  ready in 396 ms
 
-  ➜  Local:   http://localhost:5173/
+  ➜  Local:   http://localhost:5173/ #ficará aqui
   ➜  Network: use --host to expose
   ➜  press h to show help
 ```
 
 ## 🔗 API Back-end
 
-Acesse: [COLAR_LINK](COLAR_LINK)
+Acesse: [https://github.com/B3RG5TRON/Food_Explorer_NodeJS_API](https://github.com/B3RG5TRON/Food_Explorer_NodeJS_API)
 
 ## 📄 Licença
 
 MIT © Eduardo Bergstron
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## 📬 Contato
 
