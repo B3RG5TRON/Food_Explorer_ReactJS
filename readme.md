@@ -60,7 +60,7 @@ Todos os pedidos são exibidos de forma organizada, permitindo ao administrador 
 
 ## 🌐 Deploy
 
- Acesse: Em breve... <!-- [COLAR_LINK](COLAR_LINK) -->
+ Acesse: https://food-explorer-b3rg5tron.netlify.app
 
 ## 🛠️ Tecnologias
 
